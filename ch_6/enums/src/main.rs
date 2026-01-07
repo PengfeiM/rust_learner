@@ -1,6 +1,8 @@
 use self::enums::{IpAddrVersion, Message};
+use self::option_enum::some_example;
 
 mod enums;
+mod option_enum;
 
 #[derive(Debug)]
 struct IpAddr {
@@ -64,5 +66,7 @@ fn main() {
     let m = Message::Write(String::from("hello"));
     m.print();
 
-    // TODO: The Option Enum.
+    // The Option Enum.
+    println!("==== Option Enum ====");
+    some_example();
 }
