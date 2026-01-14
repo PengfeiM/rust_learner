@@ -68,7 +68,7 @@ fn main() {
     println!("None = {:?}", plus_one(None));
 
     // of course, match has a logic to deal with default case.
-    // * other;
+    // * other or any other name can work, too;
     // * _ if you don't care the value;
     roll1(1);
     roll2(20);
